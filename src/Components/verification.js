@@ -110,7 +110,7 @@ class schoolDetails extends Component {
                     })
 
                 }
-
+   
 
             })
             this.setState({ verifiedstudents, unverifiedstudents })
