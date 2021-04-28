@@ -1,0 +1,59 @@
+[
+    {
+        "iconName":"ic_inventory_chair"
+        
+    },
+    {
+        "iconName":"ic_inventory_desk"
+        
+    },
+    {
+        "iconName":"ic_inventory_camera"
+        
+    },
+    {
+        "iconName":"ic_inventory_data"
+        
+    }
+    ,
+    {
+        "iconName":"ic_inventory_circularclock"
+        
+    },
+    {
+        "iconName":"ic_inventory_delete"
+        
+    },{
+        "iconName":"ic_inventory_fan"
+        
+    },
+    {
+        "iconName":"ic_inventory_bulb"
+        
+    },
+    {
+        "iconName":"ic_inventory_mouse"
+        
+    },
+    {
+        "iconName":"ic_inventory_shoerack"
+        
+    },
+    {
+        "iconName":"ic_inventory_sofa"
+        
+    },
+    {
+        "iconName":"ic_inventory_television"
+        
+    },
+    {
+        "iconName":"ic_inventory_blackboard"
+        
+    },
+    {
+        "iconName":"ic_inventory_socket"
+        
+    }
+    
+]

@@ -1,0 +1,228 @@
+.student-grey-bg {
+    background-color: #0E7886;
+}
+
+.student-grey {
+    color: #0E7886;
+}
+.light{
+  color:red;
+  font-weight:bold;
+}
+.green{
+  color:green;
+  font-weight:bold;
+}
+.yellow{
+  color:rgb(255, 187, 0)
+}
+
+.dashboard-header-student {
+  width: 99%;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 30px;
+  padding: 0px;
+  margin-bottom: 5px;
+  text-align: center;
+  box-shadow: 0px 3px 7px #bebebe;
+}
+
+
+.login-input-s {
+    margin: auto;
+    padding: 20px 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #0E7886;
+    border-radius: 40px;
+    max-width: 60%;
+    box-shadow: 0px 2px 5px hsla(0, 0%, 0%, 0.3);
+}
+
+.input-s {
+    border: none;
+    outline: none;
+    color: white;
+    font-size: large;
+    width: 100%;
+    background-color: #0E7886;
+}
+  
+.input-s::selection {
+    background-color: #0E7886;
+    color: white;
+}
+  
+.input-s::placeholder {
+    color: white;
+    background-color: #0E7886;
+}
+
+#student-main {
+    max-height: 80%;
+    max-width: 80%;
+    margin-top: 5vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: auto;
+    
+  }
+
+  .studentlogo {
+    align-items: center;
+    display: block;
+    padding-top: auto;
+    padding-bottom: auto;
+    background-color: white;
+    height: 100%;
+  }
+
+  .login-btn-s {
+    border: none;
+    font-size: large;
+    color: white;
+    background-color: #0E7886;
+    padding: 20px 60px 20px 60px;
+    border-radius: 40px;
+    margin: 20px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0px 2px 5px #bebebe;
+    
+  }
+
+  .student-header {
+      background-color: #0E7886;
+      height: 240px;
+      width: auto;
+      border-radius: 20px;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      margin: 5px 20px 10px 10px;
+      
+  }
+
+  .header-img-s {
+      max-height: 200px;
+      margin-top: 20px;
+  }
+
+  .header-text-s {
+      color: white;
+      padding-left: 5vw;
+      margin-top: 80px;
+  }
+
+  .announcement-header-s {
+      padding: 3px 5px;
+      border-radius: 20px;
+      background-color: #0E7886;
+      
+      box-shadow: 0px 2px 5px hsl(0, 0%, 0%, 0.2);
+  }
+
+  .container-header-s {
+    background-color: #0E7886;
+    position: relative;
+    padding: 1px;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px hsla(0, 0%, 0%, 0.3);
+  }
+
+  .progress-bar {
+    background-color: #707070;
+    max-width: 100%;
+    
+    margin: 10px;
+  }
+
+  .result-box {
+    width: 100%;
+    position: relative;
+    padding-top: 0px;
+  }
+
+  .img-sm-st {
+    width: 60px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+  }
+
+  .student-resuls-header {
+    background-color: #0E7886;
+    margin: 10px 20px;
+    padding: 40px; 
+    border-radius: 20px;
+    color: white;
+  }
+
+  .attendance-select {
+    border: none;
+    margin-top: 10px;
+    outline: none;
+    cursor: pointer;
+    height: 30px;
+    box-shadow: 0px 2px 5px hsla(0, 0%, 0%, 0.3);
+    border-radius: 10px;
+    width: 80px;
+    padding: 5px;
+  }
+
+
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+    .header-img-md{
+      max-height: 130px;
+      margin-top: 30px;
+    }
+  }
+  @media only screen and (min-device-width : 375px) and (max-device-width : 767px) {
+
+    .header-img-md{
+      max-height: 80px;
+      margin-top: 60px;
+    }
+  }
+  @media only screen and (min-device-width : 320px) and (max-device-width : 374px) {
+
+    .header-img-md{
+      max-height: 60px;
+      margin-top: 60px;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+
+    .dashboard-header-student {
+      width: 95%;
+      height: 200px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 30px;
+      padding: 0px;
+      margin-bottom: 5px;
+      text-align: center;
+      box-shadow: 0px 3px 7px #bebebe;
+  }
+  
+  }
+
+  @media only screen and (max-width: 1024px) {
+
+    .dashboard-header-student {
+      width: 95%;
+      height: 200px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 30px;
+      padding: 0px;
+      margin-bottom: 5px;
+      text-align: center;
+      box-shadow: 0px 3px 7px #bebebe;
+  }
+  
+  }
